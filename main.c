@@ -17,8 +17,11 @@ void pick()
 
   int player1,player2;
     
-  printf("player 1 it is your turn\n "); scanf("%d",&player1);
-  printf("player 2 now it is your turn\n"); scanf("%d",&player2);
+  printf("player 1 it is your turn\n "); 
+  scanf("%d",&player1);
+ 
+  printf("player 2 now it is your turn\n"); 
+  scanf("%d",&player2);
 
  if(player1==player2)
 
